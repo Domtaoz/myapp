@@ -2,12 +2,26 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Hello2 from './Hello2';
+import Test from './Test';
+import Bmi from './Bmi';
+import Counter5 from './Counter5';
+import Product from './Product';
+import Shop from './shop';
 import reportWebVitals from './reportWebVitals';
+import Test2 from './Test2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <Shop/> */}
+    {/* <Counter5/> */}
+    <Product/>
+    {/* <Bmi/> */}
+    {/* <Test2 /> */}
+    {/* <Hello2 /> */}
+    {/* <Hello2 f="Pollapat" s="Rattanathip"/> */}
+    {/* <Hello /> */}
   </React.StrictMode>
 );
 

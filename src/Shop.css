@@ -1,0 +1,17 @@
+.grid-container{
+    display:block;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    background-color: yellow;
+}
+.grid-container > div{
+    margin: 10px;
+    background-color:  pink;
+    padding-top: 10px;
+    color: blue; 
+    border-color: red;
+    border-style: solid;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 5px 10px 8px #888888;
+}
